@@ -94,7 +94,7 @@
                 helloLabel.text = "View";
             } else {
                 helloLabel.text = "Viewing Portfolio";
-                window.location.replace("http://google.com");
+                window.location.replace("http://comp1073-a4-ad.azurewebsites.net/school-projects.html");
             }
             
             helloLabel.regX = helloLabel.getMeasuredWidth() * 0.5;
