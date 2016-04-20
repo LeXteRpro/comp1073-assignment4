@@ -1,0 +1,544 @@
+
+
+
+@font-face {
+	font-family: arrows-regular;
+	src: url("../fonts/Arrrows-Regular.otf") format('truetype');
+}
+
+
+/* Spacing Between Logo Text*/
+h1 span {
+	padding-left: 5px;
+}
+
+/* Basic Header Styling */
+h4 {
+	font-size: 1.3em;
+	margin-bottom: 8px;
+	font-style: italic;
+}
+
+h5 {
+	font-size: 1em;
+	
+}
+
+body {
+	background-color: #1c2021;
+}
+
+/* Allowing a couple elements to be inline */
+#header p {
+	display: inline-block;
+}
+
+
+
+/* Logo Image and Animation */
+.logo-image {
+	width: 45px;
+	margin: -15px 8px auto -20px;
+	transition: 1s;
+}
+
+/* Logo Image Hover */
+.logo-image:hover {
+	transform: rotate(360deg);
+}
+
+
+/* Main Banner on page */
+#banner {
+	background: none;
+	background-image: url("../images/bg3-lg.jpg");
+	background-repeat: no-repeat;
+	background-image: #f3f6fa;
+}
+
+/* Header Format */
+#header.alt {
+	background-color: #1c2021;
+	height: 75px;
+}
+
+/* Header Bar When Scrolled */
+#header {
+	background-color: rgba (220,220,220, 1);
+}
+
+/* Inner Info */
+.inner p {
+	padding-bottom: 5px;
+}
+
+/* Inner Info Quotation */
+.inner p:nth-child(4), p:nth-child(5)  {
+	font-size: 0.7em;
+}
+
+.i-do {
+	width: 50%;
+}
+
+/* Center Align Social Media */
+.icon-wrapper ul {
+	text-align: center;
+}
+
+.icon-wrapper li {
+	padding-right: 5px;
+}
+
+/* Less of a Gap Between Banner and Main Content */
+body.index #main {
+	padding-top: 2em;
+}
+
+/* Arrow in Logo Text */
+.logo-arrow {
+	/* Fix font conflict with main.css */
+	text-transform: none;
+	font-family: arrows-regular;
+}
+
+
+
+
+/* ===== SKILLS TABLE ===== */
+
+.front-end {
+	width: 400px;
+}
+
+.skills > section > ul {
+	display: inline-block;
+}
+
+
+.skills > section {
+	padding: 0;
+}
+
+/* Skill Bar Wrap */
+.skill-bar {
+	height: 25px;
+	width: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+.skills section {
+	padding-right: 25px
+}
+
+/* Table Styling */
+thead, tr, th, td {
+	border: solid 1px black;
+}
+
+/* Table Data */
+th, td {
+	width: 200px;
+}
+
+/* Table Header */
+th {
+	font-size: 0.8em;
+	font-weight: 500;
+}
+
+
+/* Skill Bar Styling For All */
+td[class^="skill"] {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+	font-weight: 500;
+	background: -webkit-linear-gradient(left, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* Standard syntax (must be last) */
+}
+
+/* Header of Chart */
+thead tr th {
+	background-color: rgba(200, 200, 200, 0.1);
+
+}
+
+/* Area of Chart */
+tbody tr {
+	background-color: rgba(25, 25, 25, 0.3);
+}
+
+/* Headers of Chart */
+tbody tr th {
+	background-color: rgba(100, 110, 100, 0.1);
+
+}
+
+/* Left spacing for table elements */
+th, tr {
+	padding-left: 5px;
+}
+
+
+/* Fix Table Fonts to fit one row */
+.long-name {
+	font-size: 0.7em;
+}
+
+/* Portfolio Background Layer */
+.wrapper.style3{
+background-color: rgba(100, 110, 100, 0.1);
+border-radius: 10px;
+}
+
+.portfolio h2 {
+	color: #E8E8E8;
+	font-size: 2em;
+}
+
+
+/* Skill Bars */
+
+.skill-html5 {
+	width: 95%;
+}
+
+.skill-css3 {
+	width: 80%;
+}
+
+.skill-javascript {
+	width: 45%;
+}
+
+/* Wordpress */
+.skill-wordpress {
+	width: 60%;
+}
+
+.skill-photoshop {
+	width: 60%;
+}
+
+.skill-indesign {
+	width: 40%;
+}
+
+.skill-illustrator {
+	width: 40%;
+}
+
+.skill-php {
+	width: 35%;
+}
+
+.skill-mysql {
+	width: 30%;
+}
+
+.skill-csharp {
+	width: 35%;
+}
+
+.skill-aspnet {
+	width: 45%;
+}
+
+.skill-database-management {
+	width: 40%;
+}
+
+/* Call to Action */
+#cta .email-wrap {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#cta .number-wrap {
+	display: inline-block;
+
+}
+
+.content section {
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.content section img {
+	max-width: 85%;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.content .port-thumb {
+	border: 2px solid lightgray;
+	border-radius: 10px;
+}
+
+.portfolio-item {
+	border-left: 2px solid lightgray;
+	padding-left: 15px;
+	width: 49%;
+	display: inline-block;
+}
+
+
+.content h2 {
+	text-align: center;
+}
+
+.content h3 {
+	text-align: center;
+}
+
+/* h2 Header Banner */
+.school-projects h2 {
+	font-size: 1.9em;
+	color: #101010;
+	text-shadow: 2px 2px lightgray;
+	font-weight: 500;
+
+}
+
+/* h3 Header Banner */
+.school-projects h3 {
+	background-color: #83d3c9;
+	padding: 15px;
+	color: #fff;
+	font-weight: 900;
+}
+
+/* Center Project Name and Image */
+.portfolio-item div {
+	text-align: center;
+}
+
+.contact-form-wrapper {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding: 70px auto 70px auto;
+}
+
+.contact-form-wrapper h2 {
+	text-align: center;
+	color: #F5F5F5;
+}
+
+#cta {
+	padding: 1em;
+}
+
+/* Portfolio Sections */
+#portfolio-doc section {
+	width: 100%;
+	background-color: #F5F5F5;
+	border-radius: 5px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid gray;
+	transition: width 0.5s;
+}
+
+/* Portfolio Sections on Hover */
+#portfolio-doc section:hover {
+	opacity: 1;
+	width: 98%;
+	margin: auto;
+}
+
+/* Spacing underneath Anchor Title */
+#main .project-thumb-wrap div:first-of-type {
+	margin-bottom: 20px;
+}
+
+/* General Anchor Styling */
+#main .project-thumb-wrap div a {
+	text-decoration: none;
+	font-size: 1.6em;
+	font-weight: 400;
+
+}
+
+/* Standard View Portfolio Items Effect */
+#portfolio-doc ul li {
+	background-color: transparent;
+	transition: background-color 1s;
+}
+
+/* Hover Effect on View Portfolio Items */
+#portfolio-doc ul li:hover {
+	background-color: #83d3c9;
+}
+
+
+
+/*.portfolio-item {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}*/
+
+/* ===== END SKILLS TABLE ===== */
+
+
+/* CONTACT FORM */
+
+/* Center Contact Form */
+#contact-form {
+	 float: none;
+    margin: 0 auto;
+}
+
+
+/* FORM STYLES */
+.dark-matter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background-color: rgba(100, 110, 100, 0.1);
+    padding: 20px 30px 20px 30px;
+    font: inherit;
+    color: #D3D3D3;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.dark-matter h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+
+.dark-matter h1>span {
+    font-size: 11px;
+}
+
+.dark-matter label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+
+.dark-matter label>span {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+
+}
+
+.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 25px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: #DFDFDF;
+    font-size: 1em;
+
+}
+
+.dark-matter select {
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    height: 35px;
+    color: #525252;
+    line-height: 25px;
+}
+
+.dark-matter textarea {
+    height:150px;
+    padding: 5px 0px 0px 5px;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+
+}
+
+/* Center Button */
+.button-wrapper {
+	width: 100%;
+    text-align: center;	
+}
+
+/* Button Background color*/
+.dark-matter .button {
+	background-color: transparent;
+	transition: background-color 1s;
+
+}
+
+/* Button Background Color Hover */
+.dark-matter .button:hover {
+	background-color: #83d3c9;
+    color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+}
+
+#canvas {
+    border: 1px dashed black;
+}
+
+
+.my-ad {
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+
+
+
+/* Hover Effect on View Portfolio Items */
+#portfolio-doc ul li:hover {
+	background-color: #83d3c9;
+}
+
+
+
+/* ===== END CONTACT FORM ===== */
+
+/* Adjusting font size for screen */
+@media (max-width: 750px) {
+
+#banner .inner header h2  {
+	font-size: 2em;
+}
+
+/* Adjust Banner for screen size */
+#banner .inner {
+	margin: 0;
+	background: rgba(52, 27, 43, 0.5);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+}
+
+

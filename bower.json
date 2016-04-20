@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "homepage": "https://github.com/LeXteRpro/orie-website",
+  "authors": [
+    "LeXteRpro <lexter@hotmail.ca>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "jquery-ui": "jqueryui#^1.11.4",
+    "EaselJS": "easeljs#^0.8.2",
+    "SoundJS": "^0.6.2",
+    "TweenJS": "^0.6.2",
+    "PreloadJS": "^0.6.2"
+  }
+}
